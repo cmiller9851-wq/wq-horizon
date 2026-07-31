@@ -1,0 +1,19 @@
+"""
+GLOBAL AI GOVERNANCE PROTOCOL (GAGP) — PYTHON CORE PACKAGE
+Author: Cory Michael Miller / QuickPrompt Solutions™
+Epoch: 2026
+"""
+
+from .gagp_core import (
+    compute_hamming_drift,
+    compute_double_horizon_reduction,
+    verify_quorum_consensus,
+    evaluate_gagp_state,
+)
+
+__all__ = [
+    "compute_hamming_drift",
+    "compute_double_horizon_reduction",
+    "verify_quorum_consensus",
+    "evaluate_gagp_state",
+]
